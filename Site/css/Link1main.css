@@ -16,6 +16,19 @@ html, body {
 	justify-content: center;
 }
 
-.Bigguy {
-	background-color: #fff;
+.bigguy{
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 400px;
+}
+
+
+.header{
+	background-color: #000;
+	display: flex;
+	flex-direction: row;
+
+
 }
