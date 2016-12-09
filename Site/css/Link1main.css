@@ -43,6 +43,9 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: solid black;
+	border-width: 1px;
+	transition: 0.3s;
 }
 
 a, a:link, a:visited {
@@ -54,9 +57,11 @@ a, a:link, a:visited {
 	font-weight: lighter;
 	color: black;
 	font-size: 20px;
-	border: solid black;
-	border-width: 1px;
-	padding: 14px;
+}
+
+.nav a:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+	transition: 0.3s;
 }
 
 .section{
