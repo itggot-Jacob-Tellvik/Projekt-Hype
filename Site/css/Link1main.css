@@ -2,18 +2,19 @@ html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	height: 200vh;
 }
 .main{
 	background-color: #000;
 	display: flex;
-	flex-direction: row;
-	border-image:
+	flex-direction: column;
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	background: url("../img/No-Mans-Sky-Wallpaper-Link1.jpg") no-repeat fixed center / cover;
-	justify-content: center;
+	background: url("../img/No-Mans-Sky-Wallpaper-Link1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	align-items: center;
 }
 
 .bigguy{
@@ -23,7 +24,6 @@ html, body {
 	width: 50%;
 	height: 100%;
 }
-
 
 .header{
 	width: 100%; 
@@ -61,4 +61,8 @@ a, a:link, a:visited {
 
 .section{
 
+}
+
+.section p{
+	padding: 0 100px 0 100px;
 }
