@@ -30,7 +30,9 @@ body, html{
 
 .header a:hover {
 	color: blue;
+	text-decoration: underline;
 }
+
 
 .footer{
 	display: flex;
