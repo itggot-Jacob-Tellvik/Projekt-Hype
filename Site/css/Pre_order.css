@@ -68,8 +68,12 @@ a, a:link, a:visited {
 
 }
 
-.section p{
+.section p, h2{
 	padding: 0 100px 0 100px;
+}
+
+.section h2{
+	font-family: sans-serif
 }
 
 
