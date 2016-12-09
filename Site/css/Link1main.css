@@ -58,3 +58,7 @@ a, a:link, a:visited {
 	border-width: 1px;
 	padding: 14px;
 }
+
+.section{
+	margin-bottom: 20px;
+}
